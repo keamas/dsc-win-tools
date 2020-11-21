@@ -12,4 +12,4 @@ choco install azure-cli
 choco install aksctl
 (new-object Net.WebClient).DownloadString("https://aka.ms/AzureCT") | Invoke-Expression
 Install-LinkPerformance -Force
-Install-WindowsFeature -Name Web-Server"
+Install-WindowsFeature -Name Web-Server
