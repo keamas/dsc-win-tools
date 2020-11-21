@@ -11,6 +11,7 @@ choco install wireshark
 choco install azure-cli
 choco install aksctl
 choco install dbeaver
+choco install sql-server-management-studio
 (new-object Net.WebClient).DownloadString("https://aka.ms/AzureCT") | Invoke-Expression
 Install-LinkPerformance -Force
 Install-WindowsFeature -Name Web-Server
